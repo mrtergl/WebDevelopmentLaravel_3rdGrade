@@ -59,7 +59,7 @@ Applications from students
 
 ### Admin View Recieved Application and Reject or Approve
 
-|<img src="images/Resim6.png" height="400" width="550">| <img src="images/Resim12.png" height="200" width="400">|
+|<img src="images/Resim8.png" height="400" width="550">| <img src="images/Resim12.png" height="200" width="400">|
 | ------------- | ------------- |
 | View Application | Reject or Approve Box |
 
