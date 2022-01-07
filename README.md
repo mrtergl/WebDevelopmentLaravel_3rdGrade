@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## About Project
+I created a website using Laravel PHP and Firebase. It's a project for students to apply Kocaeli University. At first you have to sign up, then you can apply five different applications such as ; summer school application,  transfer applications. It has student and admin sides. In admin side, you can view applications and you can approve or reject them. In student side, users information for application converting into PDF and allows user to download. Then you have to upload files including downloaded PDF and other necessary documents 
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
