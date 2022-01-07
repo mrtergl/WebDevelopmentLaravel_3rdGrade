@@ -17,7 +17,9 @@ You can navigate by using navigation bar or buttons to apply applications or vie
 
 ### Make an Application
 
-<img src="images/Resim5.png" height="400" width="500">  **PDF->** <img src="images/Resim4.png" height="270" width="200" alt="PDF">   
+|<img src="images/Resim5.png" height="400" width="500">|<img src="images/Resim4.png" height="270" width="200" alt="PDF">|
+| ------------- | ------------- |
+| Form for Application | PDF |
 
 Fill the form and click bottom left button "PDF'e dönüştür (Convert to PDF)" to download PDF. Then continue with bottom-right button to upload necessary files.
 
@@ -57,7 +59,9 @@ Applications from students
 
 ### Admin View Recieved Application and Reject or Approve
 
-<img src="images/Resim9.png" height="400" width="550">  <img src="images/Resim12.png" height="200" width="400">
+|<img src="images/Resim6.png" height="400" width="550">| <img src="images/Resim12.png" height="200" width="400">|
+| ------------- | ------------- |
+| View Application | Reject or Approve Box |
 
 For last step, you can approve or reject student application.
 
