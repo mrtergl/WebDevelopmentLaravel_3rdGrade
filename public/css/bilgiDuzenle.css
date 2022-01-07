@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@1,300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin-top:-10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #e6e6e6;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(14, 174, 87, 1) 0%,
+        rgba(12, 116, 117, 1) 90%
+    );
+    padding: 25px 30px;
+    border-radius: 20px;
+    position: relative;
+    height: 83vh;
+    margin-left: 107mm;
+    z-index: 30;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.28);
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-top: -15px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 5cm;
+    background: white;
+    margin-left: 10px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 12px 0;
+    color: #fff;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    border: 0.5px solid white;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box textarea {
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    border: 0.5px solid white;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+}
+
+.user-details .input-box textarea:focus,
+.user-details .input-box textarea:valid {
+    border-color: blue;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: blue;
+}
+
+.button{
+    margin-top: 1cm;
+    width: 100%;
+}
+
+
+.button input {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(14, 174, 87, 1) 0%,
+        rgba(12, 116, 117, 1) 90%
+    );
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 8px;
+    
+}
+
+.button-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 4px 4px 4px 4px;
+}
+
+.button input:hover {
+    background: white;
+    border: 2px solid #1ac353;
+    border-radius: 5px;
+    color: #1ac353;
+}
+
+
+@media (max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .container form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+.all {
+    display: block;
+}
+
+.all .image {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.select {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.select select {
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    color: #000;
+    background-color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    cursor: pointer;
+}
+
+.user-details .select select:focus {
+    border-color: #1ac353;
+}
+
+.user-details .input-box-a {
+    margin-bottom: px;
+    width: calc(100% / 2 - 20px);
+}
+
+.nav {
+    width: 100%;
+    background: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(14, 174, 87, 1) 0%,
+        rgba(12, 116, 117, 1) 90%
+    );
+    color: #fff;
+    top: 0px;
+    left: 0;
+    z-index: 50;
+}
+
+.menu {
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav .menu .menu_item {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+.nav .menu .menu_item a {
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+
+.submenu {
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 220px;
+    background:radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(14, 174, 87, 1) 0%,
+        rgba(12, 116, 117, 0.8) 90%
+    );
+    z-index: 60;
+}
+
+.header .nav{
+    overflow: inherit;
+
+}
+.submenu_item {
+    border-left: 4px solid transparent;
+}
+
+.nav .menu .menu_item a:hover {
+    transition: 1s ease;
+    background-color: white;
+    color: black;
+}
+
+.menu_item:hover .submenu {
+    display: block;
+}
+
+.submenu_item:hover {
+    border-left: 4px solid black;
+}
