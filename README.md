@@ -1,5 +1,5 @@
 # About Project
-I created a website using Laravel PHP and Firebase. It's a project for students to apply Kocaeli University. At first you have to sign up, then you can apply five different applications such as ; summer school application,  transfer applications. It has student and admin sides. In admin side, you can view applications and you can approve or reject them. In student side, users information for application converting into PDF and allows user to download. Then you have to upload files including downloaded PDF and other necessary documents.
+Me and my groupmates created a website using Laravel PHP and Firebase. It's a project for students to apply Kocaeli University. At first you have to sign up, then you can apply five different applications such as ; summer school application,  transfer applications. It has student and admin sides. In admin side, you can view applications and you can approve or reject them. In student side, users information for application converting into PDF and allows user to download. Then you have to upload files including downloaded PDF and other necessary documents.
 <br><br>
 ### Login/Sign Up                                
 
